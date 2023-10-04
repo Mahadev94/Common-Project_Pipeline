@@ -30,12 +30,7 @@ class ModelTrainer:
 
             #crate dict of models
             models={
-                'LinearRegression':LinearRegression(),
-                'Lasso':Lasso(),
-                'Ridge':Ridge(),
-                'Elasticnet':ElasticNet(),
-                "Decisiontree":DecisionTreeRegressor(),
-                "RandomForest":RandomForestRegressor()
+                'LinearRegression':LinearRegression()
             }
             #train and evaluate models with evaluate fucntion from utils
             model_report:dict=evaluate_model(X_train,Y_train,X_test,Y_test,models)
