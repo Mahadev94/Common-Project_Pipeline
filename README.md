@@ -57,3 +57,6 @@ pip install -r requirements.txt
     Dockerfile:
     .dockerignore:
 
+## 5 Deployed on AWS Elastic Beanstalk with source repo as github ans codepipeline for CD.
+
+
